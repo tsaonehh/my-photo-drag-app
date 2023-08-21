@@ -18,7 +18,8 @@ h1{
     display: flex;
     flex-wrap: wrap;
     gap: 5px;
-    width: 420px;
+    width: 620px;
+    align-items: center;
     justify-content: center;
 }
 
@@ -37,4 +38,8 @@ h1{
     background-size: cover;
     background-position: center;
     background-image: url("image.jpg");
+}
+
+.box.hovered{
+    border: 2px dashed #333;
 }
