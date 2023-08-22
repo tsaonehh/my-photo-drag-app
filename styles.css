@@ -4,10 +4,18 @@ body{
     justify-content: center;
 }
 
-h1{
+h1, h2{
     text-align: center;
     font-family: 'Poppins', sans-serif;
     font-size: 20px;
+}
+
+h1{
+    margin-bottom: 0;
+}
+
+h2{
+    margin-top: 0;
 }
 
 .hero{
@@ -44,6 +52,11 @@ h1{
     border: 2px dashed #333;
 }
 
+a{
+    text-decoration: none;
+    color: #0000ff;
+}
+
 footer{
     text-align: center;
     margin-top: 20px;
@@ -52,4 +65,5 @@ footer{
 footer p{
     font-size: 12px;
 }
+
 
